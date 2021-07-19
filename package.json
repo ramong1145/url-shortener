@@ -4,6 +4,8 @@
   "description": "Service to shorten long URLS",
   "main": "index.js",
   "scripts": {
+    "start-client": "start ./client/index.html",
+    "start-server": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

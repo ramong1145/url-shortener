@@ -1,4 +1,4 @@
-const UrlModel = require('../models/url.model');
+const UrlModel = require('../models/urlModel');
 const { nanoid } = require('nanoid');
 
 exports.getUrl = async (req, res) => {
